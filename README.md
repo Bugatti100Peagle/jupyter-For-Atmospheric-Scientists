@@ -1,8 +1,8 @@
 # jupyter For Atmospheric Scientists
 
 #### 介绍
-预装有 Python3，C，Fortan，Grads，Julia，R内核，Metpy，Siphon，atmos，basemap，ncl_to_Python，Cartopy，geoplot，ecmwf-api等常用包的 Jupyterlab 镜像。
-Docker images of Jupyterlab with Python3, C, Fortan, Grads, Julia, R and Metpy, Siphon, atmos, basemap, ncl_to_Python, Cartopy, geoplot, ecmwf-api.
+预装有 Python3，C，Fortan，Grads，Julia，R内核，Metpy，Siphon，atmos，basemap，ncl_to_Python，Cartopy，ecmwf-api，netcdf等常用包的 Jupyterlab 镜像。
+Docker images of Jupyterlab with Python3, C, Fortan, Grads, Julia, R and Metpy, Siphon, atmos, basemap, ncl_to_Python, Cartopy, ecmwf-api.
 
 #### 软件架构
 软件架构说明
