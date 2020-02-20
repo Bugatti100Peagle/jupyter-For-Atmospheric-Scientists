@@ -12,7 +12,7 @@ Docker images of Jupyterlab with Python3, C, Fortan, Grads, Julia, R and Metpy, 
 | ------------ | ------------- |
 | ![https://img.bugatii100peagle.cn/2020/02/18/36c7dd118359b.png](https://img.bugatii100peagle.cn/2020/02/18/36c7dd118359b.png) | ![https://img.bugatii100peagle.cn/2020/02/18/ec9bbcf04edf9.png](https://img.bugatii100peagle.cn/2020/02/18/ec9bbcf04edf9.png)|
 
-无需复杂设置，与安装，开包即用。（PS：尤其是Basemap，简直是气象人的噩梦）
+无需复杂设置与安装，开包即用。（PS：尤其是Basemap，简直是气象人的噩梦）
 
 ## 安装教程
 
@@ -81,18 +81,17 @@ docker -v
 
 已打包七种镜像可供选择，如下：
 
-| 镜像链接| 大小 | Python3 C Grads Julia R |Metpy Siphon atmos | basemap | ncl_to_Python | Cartopy | ecmwf-api | netcdf | Fortan |
+| 镜像名| 大小 | Python3 C Grads Julia R |Metpy Siphon atmos | basemap | ncl_to_Python | Cartopy | ecmwf-api | netcdf | Fortan |
 | ------------ | ------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgmsabefcn:v1 | 3.001 GB  | √ | √ | √ |   | √ | √ | √ | √ |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgrads_metpy_siphon_atmos_nal_ecmwf_fortran:v1 | 2.600 GB | √ | √ |   | √ |   | √ |   | √ |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgrads:1 | 1.871 GB | √ |  | |  | |  | |  |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgrads_metpy_siphon_atmos:v1 | 1.978 GB | √ | √ | |  | |  | |  |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgrads_metpy_siphon_atmos_basemap:v1 | 2.794 GB | √ | √ | √ |  | |  | |  |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgrads_metpy_siphon_atmos_basemap_ecmwf_fortran:v1 | 2.794 GB | √ | √ | √ |  |  | √ | | √ |
-| registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgrads_metpy_siphon_atmos_basemap_ecmwf_fortran_cartopy:v1 | 2.959 GB | √ | √ | √ |  | √ | √ | | √ |
+| jupytercgmsabefcn:v1 | 3.001 GB  | √ | √ | √ |   | √ | √ | √ | √ |
+| jupytercgrads_metpy_siphon_atmos_nal_ecmwf_fortran:v1 | 2.600 GB | √ | √ |   | √ |   | √ |   | √ |
+| jupytercgrads:1 | 1.871 GB | √ |  | |  | |  | |  |
+| jupytercgrads_metpy_siphon_atmos:v1 | 1.978 GB | √ | √ | |  | |  | |  |
+| jupytercgrads_metpy_siphon_atmos_basemap:v1 | 2.794 GB | √ | √ | √ |  | |  | |  |
+| jupytercgrads_metpy_siphon_atmos_basemap_ecmwf_fortran:v1 | 2.794 GB | √ | √ | √ |  |  | √ | | √ |
+| jupytercgrads_metpy_siphon_atmos_basemap_ecmwf_fortran_cartopy:v1 | 2.959 GB | √ | √ | √ |  | √ | √ | | √ |
 
-
-本教程以装有Basemap和netCDF4的jupytercgmsabefcn为例
+本教程以装有Basemap和netCDF4的jupytercgmsabefcn为例，拉取链接为`docker pull registry.cn-shanghai.aliyuncs.com/bugatii100peagle/镜像名:版本`
 
 ```bash
 docker pull registry.cn-shanghai.aliyuncs.com/bugatii100peagle/jupytercgmsabefcn:v1
@@ -108,7 +107,7 @@ docker run --name jupytercgmsabefcn -d -p 8000:8888 -v `pwd`/jupyterlab:/workspa
 
 ## 使用说明
 
-浏览器打开`http://IP:8080`，密码是空密码，直接回车即可。
+浏览器打开`http://IP:8000`，密码是空密码，直接回车即可。
 
 ![https://img.bugatii100peagle.cn/2020/02/20/442292d9a302a.png](https://img.bugatii100peagle.cn/2020/02/20/442292d9a302a.png)
 
@@ -131,6 +130,5 @@ docker run --name jupytercgmsabefcn -d -p 8000:8888 -v `pwd`/jupyterlab:/workspa
 
 ## 打赏
 
-|![https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/WX_cr.png](https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/WX_cr.png)
-| ![https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/ZFB_cr.jpg](https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/ZFB_cr.jpg) |
+|![https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/WX_cr.png](https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/WX_cr.png)| ![https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/ZFB_cr.jpg](https://bugatii100peaglepics.oss-cn-qingdao.aliyuncs.com/HexoTheme/img/ZFB_cr.jpg) |
 | ------------ | ------------- |
