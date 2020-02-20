@@ -13,6 +13,7 @@ Copyright (C) 1988-2017 by George Mason University
 
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)
 
+```bash
 packages in environment at /opt/conda:
 
 Name                    Version                   Build  Channel
@@ -454,3 +455,4 @@ zeromq                    4.3.2                he1b5a44_2    conda-forge
 zict                      1.0.0                      py_0    conda-forge
 zlib                      1.2.11            h516909a_1005    conda-forge
 zstd                      1.4.4                h3b9ef0a_1    conda-forge
+```
