@@ -1,5 +1,7 @@
 # jupytercgrads_metpy_siphon_atmos_ncl_ecmwf_fortran
 
+（PS：打包镜像的时候写错了，是`ncl`不是`nal`，等第二版更新再改了。）
+
 Jupyter登录密码：空密码
 
 Ubuntu 18.04.3 LTS
